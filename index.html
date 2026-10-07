@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Muhammad Bahauddin — Senior Web Developer</title>
+  <meta name="description" content="Senior Web Developer with 8+ years of experience. WordPress specialist, Webflow, frontend & backend development, UI/UX implementation, eCommerce and performance optimization.">
+  <meta name="theme-color" content="#05060a">
+  <link rel="canonical" href="https://muhammadbahauddin.github.io/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Bahauddin — Senior Web Developer">
+  <meta property="og:description" content="WordPress specialist · Webflow · Frontend & Backend · UI/UX · E-commerce. 8+ years building fast, maintainable websites.">
+  <meta property="og:url" content="https://muhammadbahauddin.github.io/">
+  <meta property="og:image" content="https://muhammadbahauddin.github.io/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Bahauddin",
+    "jobTitle": "Senior Web Developer",
+    "url": "https://muhammadbahauddin.github.io/",
+    "email": "mailto:bahauddin1311c@gmail.com",
+    "address": { "@type": "PostalAddress", "addressCountry": "PK" },
+    "knowsAbout": ["WordPress", "Webflow", "PHP", "JavaScript", "WooCommerce", "UI/UX", "Web Performance", "SEO"]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="logo" aria-label="Muhammad Bahauddin — home">
+      <span class="logo-mark">MB</span>
+      <span class="logo-text">bahauddin<span class="dim">/web</span></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="btn btn-sm btn-glow">Hire me</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <canvas id="net" aria-hidden="true"></canvas>
+      <div class="orb orb-a" aria-hidden="true"></div>
+      <div class="orb orb-b" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="status reveal"><span class="pulse"></span>Available for full-time, remote &amp; freelance work</div>
+          <h1 class="reveal">
+            <span class="hello">Hi, I'm</span>
+            Muhammad <span class="grad">Bahauddin</span>
+          </h1>
+          <p class="typed reveal" aria-live="polite">
+            <span class="mono prompt">&gt;</span>
+            <span id="typed">Senior Web Developer</span><span class="caret" aria-hidden="true"></span>
+          </p>
+          <p class="lead reveal">
+            8+ years building, improving, troubleshooting and maintaining websites for businesses, agencies and
+            international clients. I solve the problems that make websites slow, hard to maintain or unable to
+            support the business behind them.
+          </p>
+          <div class="hero-cta reveal">
+            <a href="#work" class="btn btn-glow">View my work <span aria-hidden="true">→</span></a>
+            <div class="dropdown" id="cvDrop">
+              <button class="btn btn-ghost" aria-haspopup="true" aria-expanded="false" id="cvBtn">
+                Download CV <span aria-hidden="true" class="chev">▾</span>
+              </button>
+              <div class="dropdown-menu" role="menu">
+                <a role="menuitem" href="cv/Muhammad-Bahauddin-Web-Developer-CV.pdf" download>
+                  <b>Senior Web Developer</b><small>Full-stack web, Webflow, UI/UX, eCommerce</small>
+                </a>
+                <a role="menuitem" href="cv/Muhammad-Bahauddin-WordPress-CV.pdf" download>
+                  <b>Senior WordPress Developer</b><small>Custom WordPress, WooCommerce, SEO</small>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <dl class="stats reveal">
+            <div><dt><span class="count" data-to="8">0</span>+</dt><dd>Years experience</dd></div>
+            <div><dt><span class="count" data-to="10">0</span>+</dt><dd>Live client sites</dd></div>
+            <div><dt><span class="count" data-to="4">0</span></dt><dd>Companies</dd></div>
+            <div><dt><span class="count" data-to="3">0</span></dt><dd>Lead dev roles</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="terminal tilt">
+            <div class="term-bar">
+              <i></i><i></i><i></i>
+              <span class="mono">functions.php — custom-theme</span>
+            </div>
+<pre class="term-body mono"><code><span class="c">/**
+ * Ship fast, maintainable websites.
+ */</span>
+<span class="k">add_action</span>( <span class="s">'init'</span>, <span class="k">function</span> () {
+  <span class="v">$dev</span> = <span class="k">new</span> <span class="f">Developer</span>( [
+    <span class="s">'name'</span>       =&gt; <span class="s">'Muhammad Bahauddin'</span>,
+    <span class="s">'role'</span>       =&gt; <span class="s">'Senior Web Developer'</span>,
+    <span class="s">'experience'</span> =&gt; <span class="n">8</span>, <span class="c">// years+</span>
+    <span class="s">'stack'</span>      =&gt; [ <span class="s">'WordPress'</span>, <span class="s">'Webflow'</span>,
+                      <span class="s">'PHP'</span>, <span class="s">'JavaScript'</span> ],
+  ] );
+
+  <span class="v">$dev</span>-&gt;<span class="f">build</span>()-&gt;<span class="f">optimize</span>()-&gt;<span class="f">support</span>();
+} );<span class="term-caret"></span></code></pre>
+          </div>
+          <div class="float-chip fc-1"><span class="dot" style="--c:#22d3ee"></span>Core Web Vitals ✓</div>
+          <div class="float-chip fc-2"><span class="dot" style="--c:#a78bfa"></span>WooCommerce</div>
+          <div class="float-chip fc-3"><span class="dot" style="--c:#f472b6"></span>Webflow</div>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-hint" aria-label="Scroll to services"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-label="Technologies">
+      <div class="marquee-track">
+        <span>WordPress</span><span>PHP</span><span>JavaScript</span><span>Webflow</span><span>WooCommerce</span>
+        <span>Elementor</span><span>Gutenberg</span><span>ACF</span><span>Beaver Builder</span><span>REST APIs</span>
+        <span>HTML5</span><span>CSS3</span><span>jQuery</span><span>Core Web Vitals</span><span>SEO</span><span>Git</span>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow mono">// 01 — what I do</span>
+          <h2>More than a site build. <span class="grad">Websites that work.</span></h2>
+          <p>WordPress is my specialty, but I work across the whole stack: from turning a design into
+            pixel-close UI, to custom backend functionality, to keeping a growing site fast and stable.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card spot reveal b-wide">
+            <div class="ic">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M6.5 8.5l2.6 7.5 2.9-6 2.9 6 2.6-7.5"/></svg>
+            </div>
+            <h3>Custom WordPress Development</h3>
+            <p>Custom themes and plugins, hooks &amp; filters, shortcodes, Gutenberg blocks, ACF and Custom Post Types:
+              built so your team can update content without breaking layouts.</p>
+            <ul class="tags"><li>Themes</li><li>Plugins</li><li>ACF</li><li>CPTs</li><li>Elementor</li><li>Gutenberg</li></ul>
+          </article>
+
+          <article class="card spot reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+            <h3>Frontend &amp; Backend</h3>
+            <p>PHP, JavaScript, HTML5 and CSS3. Custom functionality, REST APIs and third-party integrations.</p>
+          </article>
+
+          <article class="card spot reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4M7 8h5M7 12h10"/></svg></div>
+            <h3>UI/UX Implementation</h3>
+            <p>Designs turned into responsive, pixel-close interfaces that feel right on every screen.</p>
+          </article>
+
+          <article class="card spot reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l4 10 4-7 4 7 4-10"/></svg></div>
+            <h3>Webflow Development</h3>
+            <p>Webflow builds from design systems, extended with custom code where native tools fall short.</p>
+          </article>
+
+          <article class="card spot reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L21 7H6"/></svg></div>
+            <h3>E-commerce</h3>
+            <p>WooCommerce stores and platform customization: product, cart and checkout functionality.</p>
+          </article>
+
+
+          <article class="card spot reveal">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+            <h3>SEO &amp; Analytics</h3>
+            <p>Technical and on-page SEO, schema and sitemaps, plus Google Analytics (GA4) tracking.</p>
+          </article>
+
+          <article class="card spot reveal b-tall">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></div>
+            <h3>Performance &amp; Core Web Vitals</h3>
+            <p>Caching, asset optimization, lazy loading and code refactoring to make slow sites fast.</p>
+            <div class="gauge" aria-hidden="true">
+              <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50" class="g-track"/><circle cx="60" cy="60" r="50" class="g-fill"/></svg>
+              <span class="mono">LCP · CLS · INP</span>
+            </div>
+          </article>
+
+          <article class="card spot reveal b-xwide">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></div>
+            <h3>Troubleshooting, Maintenance &amp; Support</h3>
+            <p>Bug fixing and technical problem-solving across WordPress, plugins, themes, PHP, JavaScript and
+              responsive layouts, followed by reliable post-launch maintenance, updates and support.</p>
+            <ul class="tags"><li>Bug fixing</li><li>Updates</li><li>Security</li><li>Technical consulting</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow mono">// 02 — selected work</span>
+          <h2>Live projects, <span class="grad">design to launch.</span></h2>
+          <p>Client websites built on WordPress and Webflow, from a live angel-investment gala to an AI healthcare
+            platform. Hover a card to preview the whole page, then click or tap it for the full case study.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Filter projects">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="WordPress" role="tab" aria-selected="false">WordPress</button>
+          <button class="filter" data-filter="Webflow" role="tab" aria-selected="false">Webflow</button>
+        </div>
+
+        <div class="projects" id="projects"></div>
+
+        <div class="more reveal">
+          <span class="mono dim">// more live sites</span>
+          <a href="https://www.smarterdegree.com/" target="_blank" rel="noopener">Smarter Degree <span>↗</span></a>
+          <a href="https://alpinelandscapingllc.com/" target="_blank" rel="noopener">Alpine Landscaping <span>↗</span></a>
+          <a href="https://hermesbitcoin.com/" target="_blank" rel="noopener">Hermes Bitcoin <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow mono">// 03 — experience</span>
+          <h2>8+ years, <span class="grad">four companies.</span></h2>
+          <p>Agency environments, multiple projects at once, and direct collaboration with designers, project
+            managers, QA teams and clients.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="t-item reveal">
+            <div class="t-node"></div>
+            <div class="card t-card spot">
+              <div class="t-head">
+                <div><h3>Senior Web Developer</h3><span class="co">FourthD Inc.</span></div>
+                <span class="t-date mono">06/2023 — Present · Canada (Remote)</span>
+              </div>
+              <ul>
+                <li>Lead end-to-end web development for international clients, combining hands-on frontend and backend engineering with technical consultation and ongoing support.</li>
+                <li>Build custom websites and functionality with PHP, JavaScript, HTML5 and CSS3: WordPress first, alongside Webflow.</li>
+                <li>Diagnose complex issues and improve speed and Core Web Vitals through caching, asset optimization and refactoring.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="t-item reveal">
+            <div class="t-node"></div>
+            <div class="card t-card spot">
+              <div class="t-head">
+                <div><h3>WordPress Developer</h3><span class="co">Vertex Agency</span></div>
+                <span class="t-date mono">07/2020 — 06/2024 · Pakistan</span>
+              </div>
+              <ul>
+                <li>Delivered WordPress solutions for clients across multiple industries in a fast-paced agency environment.</li>
+                <li>Built custom themes, plugins, Custom Post Types, ACF and REST API integrations.</li>
+                <li>Converted UI/UX designs into responsive, accessible websites with Elementor, Gutenberg and other builders.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="t-item reveal">
+            <div class="t-node"></div>
+            <div class="card t-card spot">
+              <div class="t-head">
+                <div><h3>Website Developer &amp; Designer</h3><span class="co">Quicklinks</span></div>
+                <span class="t-date mono">02/2019 — 06/2020 · Pakistan</span>
+              </div>
+              <ul>
+                <li>Progressed from junior to WordPress developer: theme and plugin development, performance and UI/UX improvements.</li>
+                <li>Delivered freelance projects end to end, from planning and design through deployment.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="t-item reveal">
+            <div class="t-node"></div>
+            <div class="card t-card spot">
+              <div class="t-head">
+                <div><h3>Website Developer</h3><span class="co">Brandmakers</span></div>
+                <span class="t-date mono">07/2016 — 01/2019 · Pakistan</span>
+              </div>
+              <ul>
+                <li>Built and maintained WordPress websites with themes, plugins and page builders such as Elementor.</li>
+                <li>Gained hands-on frontend and backend experience with HTML, CSS, JavaScript and PHP.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow mono">// 04 — toolkit</span>
+          <h2>The <span class="grad">stack</span> behind the work.</h2>
+        </div>
+        <div class="skills">
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">languages</h3>
+            <ul class="tags"><li>PHP</li><li>JavaScript</li><li>jQuery</li><li>HTML5</li><li>CSS3</li></ul>
+          </div>
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">platforms</h3>
+            <ul class="tags"><li>WordPress</li><li>Webflow</li><li>WooCommerce</li></ul>
+          </div>
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">builders &amp; content</h3>
+            <ul class="tags"><li>Elementor</li><li>Gutenberg</li><li>Beaver Builder</li><li>ACF</li><li>Custom Post Types</li></ul>
+          </div>
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">integrations</h3>
+            <ul class="tags"><li>WordPress REST API</li><li>Third-party APIs</li><li>Google Analytics (GA4)</li></ul>
+          </div>
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">performance &amp; seo</h3>
+            <ul class="tags"><li>Core Web Vitals</li><li>Caching</li><li>Lazy loading</li><li>Minification</li><li>Technical SEO</li></ul>
+          </div>
+          <div class="card skill-group spot reveal">
+            <h3 class="mono">workflow</h3>
+            <ul class="tags"><li>Git</li><li>GitHub</li><li>Design to development</li><li>Team collaboration</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-glow" aria-hidden="true"></div>
+          <span class="eyebrow mono">// 05 — contact</span>
+          <h2>Have a website that needs <span class="grad">building, fixing or speeding up?</span></h2>
+          <p>Open to full-time, remote, hybrid, freelance, contract and project-based opportunities, both in Pakistan and internationally.</p>
+
+          <div class="contact-actions">
+            <a class="btn btn-glow btn-lg" href="mailto:bahauddin1311c@gmail.com">bahauddin1311c@gmail.com</a>
+            <button class="btn btn-ghost btn-lg" id="copyEmail" data-email="bahauddin1311c@gmail.com">Copy email</button>
+          </div>
+
+          <ul class="contact-list">
+            <li><span class="mono dim">phone</span><a href="tel:+923322421616">+92 332 2421616</a></li>
+            <li><span class="mono dim">location</span>Pakistan · Remote / Hybrid</li>
+            <li><span class="mono dim">github</span><a href="https://github.com/muhammadbahauddin" target="_blank" rel="noopener">@muhammadbahauddin</a></li>
+            <li><span class="mono dim">cv</span>
+              <a href="cv/Muhammad-Bahauddin-Web-Developer-CV.pdf" download>Web Developer</a> ·
+              <a href="cv/Muhammad-Bahauddin-WordPress-CV.pdf" download>WordPress</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Muhammad Bahauddin</span>
+      <span class="mono dim">built by hand · hosted on GitHub Pages</span>
+      <a href="#top" class="mono">back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- ============ CASE STUDY MODAL ============ -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close aria-label="Close case study">✕</button>
+      <div class="modal-grid">
+        <div class="modal-info">
+          <span class="eyebrow mono" id="mIndex"></span>
+          <h2 id="mTitle"></h2>
+          <p class="m-tagline" id="mTagline"></p>
+          <a class="m-link" id="mLink" target="_blank" rel="noopener"></a>
+          <p class="m-desc" id="mDesc"></p>
+          <dl class="m-meta" id="mMeta"></dl>
+          <ul class="tags" id="mTags"></ul>
+          <div class="m-nav">
+            <button class="btn btn-ghost btn-sm" id="mPrev">← Prev</button>
+            <button class="btn btn-ghost btn-sm" id="mNext">Next →</button>
+          </div>
+        </div>
+        <div class="modal-view">
+          <div class="view-tabs" role="tablist" aria-label="Screenshot view">
+            <button class="vtab active" data-view="home" role="tab" aria-selected="true">Homepage</button>
+            <button class="vtab" data-view="inner" role="tab" aria-selected="false">Inner page</button>
+            <button class="vtab" data-view="mobile" role="tab" aria-selected="false">Mobile</button>
+          </div>
+          <div class="browser" id="mBrowser">
+            <div class="browser-bar"><i></i><i></i><i></i><span class="url mono" id="mUrl"></span></div>
+            <div class="browser-scroll" id="mScroll" tabindex="0" aria-label="Scrollable screenshot">
+              <img id="mImg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
